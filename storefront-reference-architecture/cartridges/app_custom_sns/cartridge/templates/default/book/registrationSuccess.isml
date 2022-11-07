@@ -1,0 +1,8 @@
+<isdecorate template="common/layout/twoColumnPage">
+   <isprint value="${'TEST TEST 1'}"/>
+   <isprint value="${pdict.genre}"/>
+   <isprint value="${pdict.bookName}"/>
+   <isprint value="${pdict.authorName}"/>
+   <isprint value="${pdict.publicationYear}"/>
+    <isprint value="${'TEST TEST 2'}"/>
+</isdecorate>

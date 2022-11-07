@@ -1,0 +1,36 @@
+<isdecorate template="common/layout/twoColumnPage">
+   <isscript>
+        var assets = require('*/cartridge/scripts/assets.js');
+        assets.addCss('/css/app_custom_sns.css');
+    </isscript>
+
+   
+   <form action="${pdict.actionUrl}" method="${pdict.httpMethod}">
+           
+           <table align = "center" border="1px">
+            <tr>
+                <td colspan="2" align="center"> Book Registraton Form </td>
+                
+            </tr>
+            <tr>
+                <td> Book Name </td>
+                <td> <input type="text"   <isprint value="${pdict.bookRegistrationForm.bookName.attributes}" encoding="off" />/> </td>
+            </tr>
+             <tr>
+                <td> Publication  Year </td>
+                <td> <input type="text"   <isprint value="${pdict.bookRegistrationForm.publicationYear.attributes}" encoding="off" />/></td>
+            </tr>
+            <tr>
+                <td> Author Name </td>
+                <td> <input type="text"   <isprint value="${pdict.bookRegistrationForm.authorName.attributes}" encoding="off"  />/></td>
+            </tr>
+            <tr>
+                <td> Genre </td>
+                <td> <input type="text"   <isprint value="${pdict.bookRegistrationForm.genre.attributes}" encoding="off" />/> </td>
+            </tr>
+            <tr>
+                <td colspan="2" align="center">  <button type="submit" name="register"/> <isprint value="${"Register Me!"}"/> </button> </td>
+            </tr>
+            </table>
+        </form> 
+ </isdecorate>

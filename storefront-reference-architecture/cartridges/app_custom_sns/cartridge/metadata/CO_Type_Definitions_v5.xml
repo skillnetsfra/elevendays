@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata xmlns="http://www.demandware.com/xml/impex/metadata/2006-10-31">
+    <custom-type type-id="Student">
+        <display-name xml:lang="x-default">Students</display-name>
+        <description xml:lang="x-default">Custom object used to Students information.</description>
+        <staging-mode>no-staging</staging-mode>
+        <storage-scope>site</storage-scope>
+        <localization-suported> Supported </localization-suported>
+        <key-definition attribute-id="studentId">
+            <type>string</type>
+            <min-length>0</min-length>
+        </key-definition>
+        <attribute-definitions>
+            <attribute-definition attribute-id="studentId">
+                <display-name xml:lang="x-default">Student Id</display-name>
+                <description xml:lang="x-default">Enter the first name for the subscription</description>
+                <type>string</type>
+                <localizable-flag>false</localizable-flag>
+                <mandatory-flag>true</mandatory-flag>
+                <externally-managed-flag>false</externally-managed-flag>
+                <min-length>0</min-length>
+            </attribute-definition>
+            <attribute-definition attribute-id="name">
+                <display-name xml:lang="x-default">Student Name</display-name>
+                <description xml:lang="x-default">Student Name</description>
+                <type>string</type>
+                <localizable-flag>false</localizable-flag>
+                <mandatory-flag>false</mandatory-flag>
+                <externally-managed-flag>false</externally-managed-flag>
+                <min-length>0</min-length>
+            </attribute-definition>
+			<attribute-definition attribute-id="email">
+                <display-name xml:lang="x-default">Student email</display-name>
+                <description xml:lang="x-default">Student email</description>
+                <type>string</type>
+                <localizable-flag>false</localizable-flag>
+                <mandatory-flag>false</mandatory-flag>
+                <externally-managed-flag>false</externally-managed-flag>
+                <min-length>0</min-length>
+            </attribute-definition>
+			<attribute-definition attribute-id="age">
+                <display-name xml:lang="x-default">Student Age</display-name>
+                <description xml:lang="x-default">Student Age</description>
+                <type>int</type>
+                <localizable-flag>false</localizable-flag>
+                <mandatory-flag>false</mandatory-flag>
+                <externally-managed-flag>false</externally-managed-flag>
+                <min-length>0</min-length>
+            </attribute-definition>
+			<attribute-definition attribute-id="sex">
+                <display-name xml:lang="x-default">Student Sex</display-name>
+                <description xml:lang="x-default">Student Sex</description>
+                <type>string</type>
+                <localizable-flag>false</localizable-flag>
+                <mandatory-flag>false</mandatory-flag>
+                <externally-managed-flag>false</externally-managed-flag>
+                <min-length>0</min-length>
+            </attribute-definition>
+			<attribute-definition attribute-id="address">
+                <display-name xml:lang="x-default">Student Home Address</display-name>
+                <description xml:lang="x-default">Student Home Address</description>
+                <type>string</type>
+                <localizable-flag>false</localizable-flag>
+                <mandatory-flag>false</mandatory-flag>
+                <externally-managed-flag>false</externally-managed-flag>
+                <min-length>0</min-length>
+            </attribute-definition>
+			<attribute-definition attribute-id="zip">
+                <display-name xml:lang="x-default">Address Zip Code</display-name>
+                <description xml:lang="x-default">Address Zip Code</description>
+                <type>string</type>
+                <localizable-flag>false</localizable-flag>
+                <mandatory-flag>false</mandatory-flag>
+                <externally-managed-flag>false</externally-managed-flag>
+                <min-length>0</min-length>
+            </attribute-definition>
+			<attribute-definition attribute-id="parentName">
+                <display-name xml:lang="x-default">Parent Name</display-name>
+                <description xml:lang="x-default">Parent Name</description>
+                <type>string</type>
+                <localizable-flag>false</localizable-flag>
+                <mandatory-flag>false</mandatory-flag>
+                <externally-managed-flag>false</externally-managed-flag>
+                <min-length>0</min-length>
+            </attribute-definition>
+			<attribute-definition attribute-id="grade">
+                <display-name xml:lang="x-default">Grade</display-name>
+                <description xml:lang="x-default">Grade</description>
+                <type>string</type>
+                <localizable-flag>false</localizable-flag>
+                <mandatory-flag>false</mandatory-flag>
+                <externally-managed-flag>false</externally-managed-flag>
+                <min-length>0</min-length>
+            </attribute-definition>
+			<attribute-definition attribute-id="schoolName">
+                <display-name xml:lang="x-default">School Name</display-name>
+                <description xml:lang="x-default">School Name</description>
+                <type>string</type>
+                <localizable-flag>false</localizable-flag>
+                <mandatory-flag>false</mandatory-flag>
+                <externally-managed-flag>false</externally-managed-flag>
+                <min-length>0</min-length>
+            </attribute-definition>
+		</attribute-definitions>
+        <group-definitions>
+            <attribute-group group-id="studentsInformation">
+                <display-name xml:lang="x-default">Sudents Information</display-name>
+                <attribute attribute-id="studentId"/>
+				<attribute attribute-id="name"/>
+				<attribute attribute-id="email"/>
+				<attribute attribute-id="age"/>
+				<attribute attribute-id="sex"/>
+				<attribute attribute-id="address"/>
+				<attribute attribute-id="zip"/>
+            </attribute-group>
+            <attribute-group group-id="parentInformation">
+                <display-name xml:lang="x-default">Parent Information</display-name>
+				<attribute attribute-id="parentName"/>
+            </attribute-group>
+            <attribute-group group-id="schoolInformation">
+                <display-name xml:lang="x-default">School Information</display-name>    
+                <attribute attribute-id="grade" />
+				<attribute attribute-id="schoolName" />
+			</attribute-group>
+        </group-definitions>
+    </custom-type>
+</metadata>

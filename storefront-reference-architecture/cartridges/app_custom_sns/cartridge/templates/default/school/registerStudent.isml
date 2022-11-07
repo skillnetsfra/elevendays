@@ -1,0 +1,77 @@
+<isdecorate template="common/layout/twoColumnPage">
+    <form action="${pdict.actionUrl}" class="custom" method="POST">
+        <h1>Student Registration Form </h1>
+            <div style="width:400px;float:left" > 
+                <div style="width:400px;float:left" >
+                    <div style="width:200px;float:left" >
+                        <label for="name">Student Name</label>
+                    </div>
+                    <div style="width:200px;float:left" >
+                        <input type="text"  <isprint value="${pdict.studentRegistrationForm.name.attributes}" encoding="off" />/>
+                    </div>   
+                </div>
+                <div style="width:400px;float:left" >
+                    <div style="width:200px;float:left" >
+                        <label for="age">Student Age</label>
+                    </div>
+                    <div style="width:200px;float:left" >
+                        <input type="text" <isprint value="${pdict.studentRegistrationForm.age.attributes}" encoding="off" /> />
+                    </div>   
+                </div>
+                <div style="width:400px;float:left" >
+                    <div style="width:200px;float:left" > 
+                        <label for="sex">Sex</label>
+                    </div>
+                    <div style="width:200px;float:left" >
+                        <input type="text" <isprint value="${pdict.studentRegistrationForm.sex.attributes}" encoding="off" /> />
+                    </div>   
+                </div>
+                <div style="width:400px;float:left" >
+                    <div style="width:200px;float:left" > 
+                        <label for="sex">Address</label>
+                    </div>
+                    <div style="width:200px;float:left" >
+                       <input type="textarea" <isprint value="${pdict.studentRegistrationForm.address.attributes}" encoding="off" /> />
+                    </div>   
+                </div>
+                <div style="width:400px;float:left" >
+                    <div style="width:200px;float:left" > 
+                        <label for="zip">zip</label>
+                    </div>
+                    <div style="width:200px;float:left" >
+                        <input type="textarea" <isprint value="${pdict.studentRegistrationForm.zip.attributes}" encoding="off" /> />
+                    </div>   
+                </div>
+                <div style="width:400px;float:left" >
+                    <div style="width:200px;float:left" > 
+                        <label for="parentName">Parent Name</label>
+                    </div>
+                    <div style="width:200px;float:left" >
+                        <input type="textarea" <isprint value="${pdict.studentRegistrationForm.parentName.attributes}" encoding="off" /> />
+                    </div>   
+                </div>
+                <div style="width:400px;float:left" >
+                    <div style="width:200px;float:left" > 
+                        <label for="grade">Grade</label>
+                    </div>
+                    <div style="width:200px;float:left" >
+                        <input type="textarea" <isprint value="${pdict.studentRegistrationForm.grade.attributes}" encoding="off" /> />
+                    </div>   
+                </div>
+                <div style="width:400px;float:left" >
+                    <div style="width:200px;float:left" > 
+                        <label for="schoolName">School Name</label>
+                    </div>
+                    <div style="width:200px;float:left" >
+                         <input type="textarea" <isprint value="${pdict.studentRegistrationForm.schoolName.attributes}" encoding="off" /> />
+                    </div>   
+                </div>
+
+                            
+
+                <div style="width:400px;float:left" >
+                    <input type="submit" value="${Resource.msg('button.membership.submit', 'account', 'Submit Membership')}" class="btn btn-primary"/>
+                </div>
+            </div>
+    </form>
+</isdecorate>

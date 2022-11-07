@@ -1,0 +1,36 @@
+'use strict';
+
+importPackage(dw.util);
+importPackage(dw.svc);
+importPackage(dw.net);
+importPackage(dw.io);
+
+var server  = require('server');
+server.get('DisplayPopulationInfo', function (req, res, next) {
+    // call webservice
+     var usaPopulationDataService = LocalServiceRegistry.createService("app_custom_sns.http.uspopulation.get", {
+            parseResponse : function(svc:HTTPService, listOutput) {
+                var x : Array = [];
+                var resp : Array = listOutput;
+                for(var i = 0; i < resp.length; i++) {
+                    var f = resp[i];
+                    x.push( { "Nation": f['Nation'], "Population": f['Population'] , "Year" :f['ID Year'] } );
+                }
+                return x;
+            }
+        });
+        res.setViewData({result: usaPopulationDataService.call()});
+        res.render('welcome/welcomeMessage');
+        next();
+    });
+
+    server.get('Welcome', function (req, res, next) {
+        res.setViewData({welcomeMessage :  " Welcome "+req.querystring.name +" !"});
+        if(req.querystring.decorateMe!=null && req.querystring.decorateMe == 'true'){
+                res.setViewData({decorate : req.querystring.decorateMe});
+        }
+        res.render('welcome/welcomeMessage');
+        next(); // commenting next()
+    });
+
+module.exports = server.exports();

@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<form xmlns="http://www.demandware.com/xml/form/2008-04-19">
+  <field formid="bookName"
+         label="label.input.bookName" 
+         type="string" 
+         mandatory="true"
+         max-length="5"
+
+   />
+  <field formid="authorName"
+         type="string"
+         label="label.input.authorName" 
+         mandatory="true"
+         max-length="6" 
+  />
+  <field formid="publicationYear"
+         type="string"
+         label="label.input.publicationYear" 
+         mandatory="true"
+         max-length="7"
+  />
+  <field formid="genre"
+         type="string"
+         label="label.input.genre" 
+         mandatory="true"
+         max-length="8"
+    />
+    <action formid="register" valid-form="false"/>
+</form>

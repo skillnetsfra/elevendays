@@ -1,0 +1,19 @@
+<iscontent type="text/html" charset="UTF-8" compact="true"/>
+
+<isinclude template="/components/modules" sf-toolkit="off" />
+
+<!DOCTYPE html>
+<html lang="${require('dw/util/Locale').getLocale(request.getLocale()).getLanguage()}">
+    <head>
+        <style>
+            body {background-color: gray;}
+            div  {color: white;padding"10 px}
+            p    {color: red;}
+</style>
+    </head>
+    <body>
+       <div>
+          <isreplace/>
+        </div>
+    </body>
+</html>

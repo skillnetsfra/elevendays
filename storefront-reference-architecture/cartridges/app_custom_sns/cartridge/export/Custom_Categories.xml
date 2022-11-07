@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog xmlns="http://www.demandware.com/xml/impex/catalog/2006-10-31" catalog-id="foodAndHousehold">
+    <category category-id="root">
+        <display-name xml:lang="x-default">FOOD &amp; HOUSEHOLD</display-name>
+        <description xml:lang="x-default">FOOD &amp; HOUSEHOLD</description>
+        <online-flag>true</online-flag>
+        <template/>
+        <page-attributes/>
+    </category>
+	
+	<category category-id="baking">
+        <display-name xml:lang="x-default">Baking</display-name>
+        <online-flag>true</online-flag>
+        <parent>root</parent>
+        <position>1.0</position>
+        <template/>
+        <page-attributes/>
+        <custom-attributes>
+            <custom-attribute attribute-id="enableCompare">false</custom-attribute>
+        </custom-attributes>
+    </category>
+	<category category-id="candy">
+        <display-name xml:lang="x-default">CANDY</display-name>
+        <online-flag>true</online-flag>
+        <parent>root</parent>
+        <position>2.0</position>
+        <template/>
+        <page-attributes/>
+        <custom-attributes>
+            <custom-attribute attribute-id="enableCompare">false</custom-attribute>
+        </custom-attributes>
+    </category>
+	<category category-id="nuts">
+        <display-name xml:lang="x-default">NUTS</display-name>
+        <online-flag>true</online-flag>
+        <parent>root</parent>
+        <position>3.0</position>
+        <template/>
+        <page-attributes/>
+        <custom-attributes>
+            <custom-attribute attribute-id="enableCompare">false</custom-attribute>
+        </custom-attributes>
+    </category>
+</catalog>

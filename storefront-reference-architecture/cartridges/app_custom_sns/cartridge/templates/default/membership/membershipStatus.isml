@@ -1,0 +1,9 @@
+ <isdecorate template="common/layout/twoColumnPage">
+    <html>
+        <body>
+            <h1> ${pdict.email}... Congrats !, Success From Membership Registration</h1>
+            <p>  Welcome to our club, ${pdict.lastname}, ${pdict.firstname}.</p>
+
+        </body>
+    </html>
+ </isdecorate>

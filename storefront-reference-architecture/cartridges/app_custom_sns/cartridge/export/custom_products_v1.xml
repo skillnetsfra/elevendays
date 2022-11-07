@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog xmlns="http://www.demandware.com/xml/impex/catalog/2006-10-31" catalog-id="apparel-m-catalog">
+<product product-id="0000000322342">
+        <ean/>
+        <upc/>
+        <unit/>
+        <min-order-quantity>1</min-order-quantity>
+        <step-quantity>1</step-quantity>
+        <display-name xml:lang="x-default">American Plastic Toys Deluxe Boats - Assorted</display-name>
+      
+        <short-description xml:lang="x-default">American Plastic Toys Deluxe Boats - Assorted</short-description>
+        
+        <long-description xml:lang="x-default">American Plastic Toys Deluxe Boats - Assorted</long-description>
+        
+        <store-force-price-flag>false</store-force-price-flag>
+        <store-non-inventory-flag>false</store-non-inventory-flag>
+        <store-non-revenue-flag>false</store-non-revenue-flag>
+        <store-non-discountable-flag>false</store-non-discountable-flag>
+        <online-flag>true</online-flag>
+        <available-flag>true</available-flag>
+        <searchable-flag>true</searchable-flag>
+        <images>
+            <image-group view-type="large">
+                <image path="large/0000000322342_1_large.jpg"/>
+                <image path="large/0000000322342_2_large.jpg"/>
+                <image path="large/0000000322342_3_large.jpg"/>
+            </image-group>
+            <image-group view-type="small">
+                <image path="small/0000000322342_1_small.jpg"/>
+                <image path="small/0000000322342_2_small.jpg"/>
+                <image path="small/0000000322342_3_small.jpg"/>
+            </image-group>
+        </images>
+        <tax-class-id>standard</tax-class-id>
+        <page-attributes>
+            <page-title xml:lang="x-default">American Plastic Toys Deluxe Boats - Assorted</page-title>
+        </page-attributes>
+        <custom-attributes>
+            <custom-attribute attribute-id="isNew">true</custom-attribute>
+            <custom-attribute attribute-id="isNewtest">true</custom-attribute>
+            <custom-attribute attribute-id="isSale">true</custom-attribute>
+        </custom-attributes>
+		<classification-category>sandBoxAndSandToys</classification-category>
+        <pinterest-enabled-flag>false</pinterest-enabled-flag>
+        <facebook-enabled-flag>false</facebook-enabled-flag>
+        <store-attributes>
+            <force-price-flag>false</force-price-flag>
+            <non-inventory-flag>false</non-inventory-flag>
+            <non-revenue-flag>false</non-revenue-flag>
+            <non-discountable-flag>false</non-discountable-flag>
+        </store-attributes>
+    </product>
+	<product product-id="0000000392577">
+        <ean/>
+        <upc/>
+        <unit/>
+        <min-order-quantity>1</min-order-quantity>
+        <step-quantity>1</step-quantity>
+        <display-name xml:lang="x-default">Mattel Disney PIXAR Lightyear Roleplay Zurg Blaster</display-name>
+      
+        <short-description xml:lang="x-default">Mattel Disney PIXAR Lightyear Roleplay Zurg Blaster</short-description>
+        
+        <long-description xml:lang="x-default">Mattel Disney PIXAR Lightyear Roleplay Zurg Blaster</long-description>
+        
+        <store-force-price-flag>false</store-force-price-flag>
+        <store-non-inventory-flag>false</store-non-inventory-flag>
+        <store-non-revenue-flag>false</store-non-revenue-flag>
+        <store-non-discountable-flag>false</store-non-discountable-flag>
+        <online-flag>true</online-flag>
+        <available-flag>true</available-flag>
+        <searchable-flag>true</searchable-flag>
+        <images>
+            <image-group view-type="large">
+                <image path="large/0000000392577_1_large.jpg"/>
+                <image path="large/0000000392577_2_large.jpg"/>
+                <image path="large/0000000392577_3_large.jpg"/>
+            </image-group>
+            <image-group view-type="small">
+                <image path="small/0000000392577_1_small.jpg"/>
+                <image path="small/0000000392577_2_small.jpg"/>
+                <image path="small/0000000392577_3_small.jpg"/>
+            </image-group>
+        </images>
+        <tax-class-id>standard</tax-class-id>
+        <page-attributes>
+            <page-title xml:lang="x-default">Mattel Disney PIXAR Lightyear Roleplay Zurg Blaster</page-title>
+        </page-attributes>
+        <custom-attributes>
+            <custom-attribute attribute-id="isNew">true</custom-attribute>
+            <custom-attribute attribute-id="isNewtest">true</custom-attribute>
+            <custom-attribute attribute-id="isSale">true</custom-attribute>
+        </custom-attributes>
+		<classification-category>sandBoxAndSandToys</classification-category>
+        <pinterest-enabled-flag>false</pinterest-enabled-flag>
+        <facebook-enabled-flag>false</facebook-enabled-flag>
+        <store-attributes>
+            <force-price-flag>false</force-price-flag>
+            <non-inventory-flag>false</non-inventory-flag>
+            <non-revenue-flag>false</non-revenue-flag>
+            <non-discountable-flag>false</non-discountable-flag>
+        </store-attributes>
+    </product>
+</catalog>

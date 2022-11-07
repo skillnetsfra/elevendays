@@ -1,0 +1,63 @@
+<?xml version="1.0"?>
+<form xmlns="http://www.demandware.com/xml/form/2008-04-19" secure="false">
+    <field formid="name"
+            mandatory="true"
+            secure="true"
+            type="string"
+            max-length="10"
+            externally-managed-flag="false" 
+    />
+    <field formid="email"
+            mandatory="true"
+            secure="true"
+            type="string"
+            max-length="10"
+            externally-managed-flag="false" 
+    />
+    <field formid="age"
+           mandatory="true" 
+           secure="true"
+           type="integer"
+           max-length="3"
+           externally-managed-flag="false"
+    />
+    <field formid="sex"
+           mandatory="true"
+           secure="true"
+           max-length="2"
+           type="string"
+           externally-managed-flag="true"
+    />
+    <field formid="address"
+            mandatory="true"
+            secure="false"
+            max-length="200"
+            field-height="10"
+            field-length="200"
+            type="string"
+    />
+    <field formid="zip"
+           mandatory="true"
+           secure="true"
+           max-length="5"
+           type="string"
+    />
+    <field formid="parentName"
+           mandatory="true"
+           secure="false"
+           max-length="100"
+           type="string"
+    />
+    <field formid="grade"
+           mandatory="true"
+           secure="false"
+           max-length="2"
+           type="string"
+    />
+    <field formid="schoolName"
+           mandatory="true"
+           secure="false"
+           max-length="100"
+           type="string"
+    />
+</form> 

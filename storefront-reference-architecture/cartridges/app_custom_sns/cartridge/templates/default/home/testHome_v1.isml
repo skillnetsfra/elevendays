@@ -1,0 +1,3 @@
+<isprint value="${'Version 1'}"/>
+<isprint value="${pdict.name}"/> 
+<isprint value="${pdict.lastName}"/>

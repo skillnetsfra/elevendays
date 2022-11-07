@@ -1,0 +1,36 @@
+ <isdecorate template="common/layout/twoColumnPage">
+
+        <form action="${pdict.actionUrl}" class="custom" method="POST">
+
+            <h1>Membership Request form </h1>
+            <div style="width:400px;float:left" > 
+                <div style="width:400px;float:left" >
+                    <div style="width:200px;float:left" >
+                        <label for="firstname">First Name</label>
+                    </div>
+                    <div style="width:200px;float:left" >
+                        <input type="text" name="firstname" id="firstname" />
+                    </div>   
+                </div>
+                <div style="width:400px;float:left" >
+                    <div style="width:200px;float:left" >
+                        <label for="lastname">Last Name</label>
+                    </div>
+                    <div style="width:200px;float:left" >
+                        <input type="text" name="lastname" id="lastname" />
+                    </div>   
+                </div>
+                <div style="width:400px;float:left" >
+                    <div style="width:200px;float:left" > 
+                        <label for="email">Email</label>
+                    </div>
+                    <div style="width:200px;float:left" >
+                        <input type="email" name="email" id="email" />
+                    </div>   
+                </div>
+                <div style="width:400px;float:left" >
+                    <input type="submit" value="${Resource.msg('button.membership.submit', 'account', 'Submit Membership')}" class="btn btn-primary"/>
+                </div>
+            </div>
+        </form>
+    </isdecorate>

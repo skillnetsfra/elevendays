@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog xmlns="http://www.demandware.com/xml/impex/catalog/2006-10-31" catalog-id="foodAndHousehold">
+    <!--  Products -->
+    <product product-id="NBaking001">
+        <ean/>
+        <upc/>
+        <unit/>
+        <min-order-quantity>1</min-order-quantity>
+        <step-quantity>1</step-quantity>
+        <display-name xml:lang="x-default">Essential EVERYDAY 32 oz Peanut Oil</display-name>
+        <short-description xml:lang="x-default">Essential EVERYDAY 32 oz Peanut Oil</short-description>
+        <long-description xml:lang="x-default">
+			&lt;ul&gt;
+				&lt;li&gt;  Peanut oil is a popular oil for turkey, fish, and chicken    &lt;/li&gt;
+				&lt;li&gt;  100% peanut oil &lt;/li&gt;
+				&lt;li&gt;  Excellent for deep frying &lt;/li&gt;
+				&lt;li&gt; Weight: Approximately: 2.08 pounds &lt;/li&gt;
+				&lt;li&gt; Shipping Dimensions: Approximately 8 x 4.1 x 2.9 inches. &lt;/li&gt;
+				&lt;li&gt;This product cannot be shipped to: CA &lt;/li&gt;         
+			&lt;/ul&gt;
+		</long-description>
+        <store-force-price-flag>false</store-force-price-flag>
+        <store-non-inventory-flag>false</store-non-inventory-flag>
+        <store-non-revenue-flag>false</store-non-revenue-flag>
+        <store-non-discountable-flag>false</store-non-discountable-flag>
+        <online-flag>true</online-flag>
+        <available-flag>true</available-flag>
+        <searchable-flag>true</searchable-flag>
+        <images>
+            <image-group view-type="large">
+                <image path="large/B0174514_GY9_0.jpg"/>
+            </image-group>
+            <image-group view-type="large">
+                <variation attribute-id="color" value="blue"/>
+                <image path="large/B0174514_GY9_0.jpg"/>
+            </image-group>
+            <image-group view-type="medium">
+                <image path="medium/B0174514_GY9_0.jpg"/>
+            </image-group>
+            <image-group view-type="medium">
+                <variation attribute-id="color" value="blue"/>
+                <image path="medium/B0174514_GY9_0.jpg"/>
+            </image-group>
+            <image-group view-type="small">
+                <image path="small/B0174514_GY9_0.jpg"/>
+            </image-group>
+            <image-group view-type="small">
+                <variation attribute-id="color" value="blue"/>
+                <image path="small/B0174514_GY9_0.jpg"/>
+            </image-group>
+            <image-group view-type="swatch">
+                <image path="swatch/B0174514_GY9_sw.jpg"/>
+            </image-group>
+            <image-group view-type="swatch">
+                <variation attribute-id="color" value="blue"/>
+                <image path="swatch/B0174514_GY9_sw.jpg"/>
+            </image-group>
+        </images>
+        <tax-class-id>standard</tax-class-id>
+        <page-attributes>
+            <page-title xml:lang="x-default">Essential EVERYDAY 32 oz Peanut Oil</page-title>
+            <page-description xml:lang="x-default">Essential EVERYDAY 32 oz Peanut Oil</page-description>
+            <page-url xml:lang="x-default">Essential-EVERYDAY-32-oz-Peanut-Oil</page-url>
+        </page-attributes>
+	    <classification-category>baking</classification-category>
+        <pinterest-enabled-flag>false</pinterest-enabled-flag>
+        <facebook-enabled-flag>false</facebook-enabled-flag>
+        <store-attributes>
+            <force-price-flag>false</force-price-flag>
+            <non-inventory-flag>false</non-inventory-flag>
+            <non-revenue-flag>false</non-revenue-flag>
+            <non-discountable-flag>false</non-discountable-flag>
+        </store-attributes>
+    </product>
+    <product product-id="NCandy002">
+        <ean/>
+        <upc/>
+        <unit/>
+        <min-order-quantity>1</min-order-quantity>
+        <step-quantity>1</step-quantity>
+        <display-name xml:lang="x-default">Fleet Farm 64 oz Spice Drops</display-name>
+        <short-description xml:lang="x-default">Fleet Farm 64 oz Spice Drops</short-description>
+        <long-description xml:lang="x-default">
+			&lt;ul&gt;
+				&lt;li&gt;  Jellied candy in a variety of spice flavors   &lt;/li&gt;
+				&lt;li&gt;  Resealable package &lt;/li&gt;
+				&lt;li&gt;  Bite sized and sugar-coated for sweetness &lt;/li&gt;
+				&lt;li&gt; Shipping available only during cooler months &lt;/li&gt;
+				&lt;li&gt; Weight: Approximately: 4 pounds. &lt;/li&gt;
+				&lt;li&gt; Shipping Dimensions: Approximately 12 x 10 x 3 inches. &lt;/li&gt; 
+                &lt;li&gt; This product cannot be shipped to: CA &lt;/li&gt;  				
+			&lt;/ul&gt;
+		</long-description>
+        <store-force-price-flag>false</store-force-price-flag>
+        <store-non-inventory-flag>false</store-non-inventory-flag>
+        <store-non-revenue-flag>false</store-non-revenue-flag>
+        <store-non-discountable-flag>false</store-non-discountable-flag>
+        <online-flag>true</online-flag>
+        <available-flag>true</available-flag>
+        <searchable-flag>true</searchable-flag>
+        <images>
+            <image-group view-type="large">
+                <image path="large/B0174514_GY9_0.jpg"/>
+            </image-group>
+            <image-group view-type="large">
+                <variation attribute-id="color" value="blue"/>
+                <image path="large/B0174514_GY9_0.jpg"/>
+            </image-group>
+            <image-group view-type="medium">
+                <image path="medium/B0174514_GY9_0.jpg"/>
+            </image-group>
+            <image-group view-type="medium">
+                <variation attribute-id="color" value="blue"/>
+                <image path="medium/B0174514_GY9_0.jpg"/>
+            </image-group>
+            <image-group view-type="small">
+                <image path="small/B0174514_GY9_0.jpg"/>
+            </image-group>
+            <image-group view-type="small">
+                <variation attribute-id="color" value="blue"/>
+                <image path="small/B0174514_GY9_0.jpg"/>
+            </image-group>
+            <image-group view-type="swatch">
+                <image path="swatch/B0174514_GY9_sw.jpg"/>
+            </image-group>
+            <image-group view-type="swatch">
+                <variation attribute-id="color" value="blue"/>
+                <image path="swatch/B0174514_GY9_sw.jpg"/>
+            </image-group>
+        </images>
+        <tax-class-id>standard</tax-class-id>
+        <page-attributes>
+            <page-title xml:lang="x-default">Fleet Farm 64 oz Spice Drops</page-title>
+            <page-description xml:lang="x-default">Fleet Farm 64 oz Spice Drops</page-description>
+            <page-url xml:lang="x-default">Fleet Farm 64 oz Spice Drops</page-url>
+        </page-attributes>
+	    <classification-category>candy</classification-category>
+        <pinterest-enabled-flag>false</pinterest-enabled-flag>
+        <facebook-enabled-flag>false</facebook-enabled-flag>
+        <store-attributes>
+            <force-price-flag>false</force-price-flag>
+            <non-inventory-flag>false</non-inventory-flag>
+            <non-revenue-flag>false</non-revenue-flag>
+            <non-discountable-flag>false</non-discountable-flag>
+        </store-attributes>
+    </product>
+	<product product-id="NNuts003">
+        <ean/>
+        <upc/>
+        <unit/>
+        <min-order-quantity>1</min-order-quantity>
+        <step-quantity>1</step-quantity>
+        <display-name xml:lang="x-default">Beer Nuts 12 oz Original Peanuts</display-name>
+        <short-description xml:lang="x-default">Beer Nuts 12 oz Original Peanuts</short-description>
+        <long-description xml:lang="x-default">
+			&lt;ul&gt;
+				&lt;li&gt;  Model # 624379   &lt;/li&gt;
+				&lt;li&gt;  Original Peanuts with a unique Sweet and Salty taste makes a great party snack &lt;/li&gt;
+				&lt;li&gt;  12 oz of peanuts per can &lt;/li&gt;
+				&lt;li&gt; Sweet and salty flavor &lt;/li&gt;
+				&lt;li&gt; Source of protein &lt;/li&gt;
+				&lt;li&gt; Great party snack. &lt;/li&gt; 
+                &lt;li&gt; Comes in a convenient resealable tin &lt;/li&gt;
+                &lt;li&gt; Weight: Approximately: 1 pounds &lt;/li&gt; 
+                &lt;li&gt; Shipping Dimensions: Approximately 4.1 x 4.1 x 3.57 inches. &lt;/li&gt;   	
+                &lt;li&gt; This product cannot be shipped to: CA &lt;/li&gt;   	  				
+			&lt;/ul&gt;
+		</long-description>
+        <store-force-price-flag>false</store-force-price-flag>
+        <store-non-inventory-flag>false</store-non-inventory-flag>
+        <store-non-revenue-flag>false</store-non-revenue-flag>
+        <store-non-discountable-flag>false</store-non-discountable-flag>
+        <online-flag>true</online-flag>
+        <available-flag>true</available-flag>
+        <searchable-flag>true</searchable-flag>
+        <images>
+            <image-group view-type="large">
+                <image path="large/B0174514_GY9_0.jpg"/>
+            </image-group>
+            <image-group view-type="large">
+                <variation attribute-id="color" value="blue"/>
+                <image path="large/B0174514_GY9_0.jpg"/>
+            </image-group>
+            <image-group view-type="medium">
+                <image path="medium/B0174514_GY9_0.jpg"/>
+            </image-group>
+            <image-group view-type="medium">
+                <variation attribute-id="color" value="blue"/>
+                <image path="medium/B0174514_GY9_0.jpg"/>
+            </image-group>
+            <image-group view-type="small">
+                <image path="small/B0174514_GY9_0.jpg"/>
+            </image-group>
+            <image-group view-type="small">
+                <variation attribute-id="color" value="blue"/>
+                <image path="small/B0174514_GY9_0.jpg"/>
+            </image-group>
+            <image-group view-type="swatch">
+                <image path="swatch/B0174514_GY9_sw.jpg"/>
+            </image-group>
+            <image-group view-type="swatch">
+                <variation attribute-id="color" value="blue"/>
+                <image path="swatch/B0174514_GY9_sw.jpg"/>
+            </image-group>
+        </images>
+        <tax-class-id>standard</tax-class-id>
+        <page-attributes>
+            <page-title xml:lang="x-default">Beer Nuts 12 oz Original Peanuts</page-title>
+            <page-description xml:lang="x-default">Beer Nuts 12 oz Original Peanuts</page-description>
+            <page-url xml:lang="x-default">Beer Nuts 12 oz Original Peanuts</page-url>
+        </page-attributes>
+	    <classification-category>nuts</classification-category>
+        <pinterest-enabled-flag>false</pinterest-enabled-flag>
+        <facebook-enabled-flag>false</facebook-enabled-flag>
+        <store-attributes>
+            <force-price-flag>false</force-price-flag>
+            <non-inventory-flag>false</non-inventory-flag>
+            <non-revenue-flag>false</non-revenue-flag>
+            <non-discountable-flag>false</non-discountable-flag>
+        </store-attributes>
+    </product>
+</catalog>
