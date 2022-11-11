@@ -1,0 +1,6 @@
+<isdecorate template="common/layout/page">
+    
+<isprint value="${pdict.name}"/> 
+<isprint value="${pdict.lastName}"/>
+    
+</isdecorate>
